@@ -1,0 +1,95 @@
+
+.dropdown-span-hover:hover {
+    cursor: pointer;
+}
+
+li {
+    margin-right: 5px;
+    margin-bottom: 5px;
+}
+
+.main-container {
+    display: flex;
+    outline: none;
+}
+
+header {
+    position: sticky;
+    top: 0;
+    z-index: 100;
+}
+
+.accordion-p {
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
+.accordion-btn-p {
+    height: 10px;
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
+.accordion-button:not(.collapsed) {
+    color: #0c63e4;
+    background-color: white;
+}
+
+.accordion-button:focus {
+    box-shadow: none;
+    border-color:white;
+}
+
+.btn-add-to-cart {
+    margin-top: 5px;
+}
+
+img {
+    height: 300px;
+}
+
+.toggle-custom {
+    cursor: pointer;
+}
+
+.sumLi {
+    list-style: none;
+}
+
+#products-list input {
+    width: 50px;
+}
+
+.container-form {
+    width: 80vw;;
+}
+
+.form-pos {
+    position: absolute;
+    top: 15%;
+    left: 10%;
+    width: 80vw;
+    background: #f2f3f4;
+    display: none;
+}
+
+.toggle-block {
+    display: block;
+    z-index: 10000;
+}
+
+.brd {
+    border-bottom: 3px solid black;
+}
+
+.beforeProd {
+    position: relative;
+}
+
+.beforeProd::before {
+    position: absolute;
+    content: "⦿";
+    top:0;
+    left: -20px;
+}
+
